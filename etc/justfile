@@ -40,8 +40,8 @@ setup-pwa:
 setup-gaming:
   echo 'Setting up gaming experience ... lock and load.'
   flatpak install -y --user \\
-  com.discordapp.Discord \\
   com.feaneron.Boatswain \\
+  net.lutris.Lutris \\
   org.freedesktop.Platform.VulkanLayer.MangoHud//22.08 \\
   org.freedesktop.Platform.VulkanLayer.OBSVkCapture//22.08 \\
   org.freedesktop.Platform.VulkanLayer.vkBasalt//22.08 \\
@@ -53,10 +53,10 @@ setup-gaming:
   com.valvesoftware.Steam \\
   com.valvesoftware.Steam.Utility.gamescope \\
   net.davidotek.pupgui2
-  flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications 
-  flatpak override --user --env=MANGOHUD=1 com.valvesoftware.Steam 
-  flatpak override --user --env=MANGOHUD=1 com.heroicgameslauncher.hgl 
- 
+  flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
+  flatpak override --user --env=MANGOHUD=1 com.valvesoftware.Steam
+  flatpak override --user --env=MANGOHUD=1 com.heroicgameslauncher.hgl
+
 update:
   rpm-ostree update
   flatpak update -y

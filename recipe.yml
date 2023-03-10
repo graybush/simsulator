@@ -5,6 +5,7 @@ rpms:
   - evolution
   - freeipa-client
   - libratbag-ratbagd
+  - tcsh
   - vim
   - vim-default-editor
   - zenity

@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_BASE_NAME: startingpoint
+  IMAGE_BASE_NAME: simsulator
   IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        image_name: [startingpoint]
+        image_name: [simsulator]
         major_version: [37]
         include:
           - major_version: 37

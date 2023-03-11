@@ -1,5 +1,28 @@
 # Changelog
 
+## 1.0.0 (2023-03-11)
+
+
+### Features
+
+* add tcsh ([f838945](https://github.com/graybush/simsulator/commit/f83894586389b3f579c8e332440c3be525b2ff22))
+* udpate installed software ([a8f9eda](https://github.com/graybush/simsulator/commit/a8f9edad1374d6f14664c087915c9a28016d30c4))
+* update cosign.pub ([563e7e6](https://github.com/graybush/simsulator/commit/563e7e6820970ca028548ba8222d5d0fe19c06cc))
+* use nvidia base ([2339621](https://github.com/graybush/simsulator/commit/2339621bcfe39f2e68bddabee4e4bacc82f801f2))
+
+
+### Bug Fixes
+
+* add dracut config ([5b52714](https://github.com/graybush/simsulator/commit/5b52714d083a8fafe8cebab9e585d44ffb493395))
+* add remote-fs ([58f2853](https://github.com/graybush/simsulator/commit/58f285332f638266a85e266ec231da720bbb7478))
+* debug maybe the order ([42bb470](https://github.com/graybush/simsulator/commit/42bb47077bfa12dcaa506766ca95d4a63110ecf7))
+* fstab not loading, add rpm-ostree cleanup ([3621547](https://github.com/graybush/simsulator/commit/3621547636061d5aef3db0a875d5da4a970f4221))
+* fstab not loading, maybe fix ([9494724](https://github.com/graybush/simsulator/commit/9494724a5d8f468970e6c08782c43ba11315b6a4))
+* get on the 37-470 train ([6ad0e12](https://github.com/graybush/simsulator/commit/6ad0e1222daec5a75049696cc278fd2b3c79ddae))
+* latest train ([23e4a1f](https://github.com/graybush/simsulator/commit/23e4a1ff5c54e1e1f8f26f37355454d71f9df001))
+* target &gt; service ([2465588](https://github.com/graybush/simsulator/commit/246558875e246dfe238fe1d26bfd8b5fdba71884))
+* update IMAGE_BASE_NAME ([02fdad9](https://github.com/graybush/simsulator/commit/02fdad9afebec075b05c70fd087c6f34e58f0be8))
+
 ## [1.1.0](https://github.com/ublue-os/base/compare/v1.0.0...v1.1.0) (2023-03-03)
 
 

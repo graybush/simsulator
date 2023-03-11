@@ -22,6 +22,7 @@ RUN setsebool -P -N use_nfs_home_dirs=1 unconfined_mozilla_plugin_transition=0 &
     done && \
     echo "---" && \
     systemctl enable ratbagd.service && \
+    systemctl enable remote-fs.service && \
     systemctl enable rpm-ostree-countme.service && \
     sed -i 's/#DefaultTimeoutStopSec.*/DefaultTimeoutStopSec=15s/' /etc/systemd/user.conf && \
     sed -i 's/#DefaultTimeoutStopSec.*/DefaultTimeoutStopSec=15s/' /etc/systemd/system.conf && \
